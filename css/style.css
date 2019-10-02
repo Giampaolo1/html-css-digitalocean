@@ -34,14 +34,25 @@ nav a {
 
 /*  header  */
 /*  navbar */
+.nav1left {
+  text-align: left;
+}
+.nav1right {
+  text-align: right;
+}
+
 .nav2left {
   width: 20%;
+}
+.nav2left img {
+  width: 100%;
 }
 .nav2center {
   width: 60%;
 }
 .nav2right {
   width: 20%;
+  padding: 8px;
 }
 /* sezione grande */
 h1 {
