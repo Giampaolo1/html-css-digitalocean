@@ -49,11 +49,11 @@ h1 {
   text-align: left;
 }
 .grande {
-  height: 500px;
-  background: #0049FF;
+  height: 600px;
+  background-image: url(../img/sfondo.jpg);
 }
 .grandeleft {
-  height: 500px;
+  height: 600px;
   padding: 10%;
 }
 .grandeleft p {
@@ -62,6 +62,6 @@ h1 {
 }
 .granderight {
   background: white;
-  height: 350px;
-  margin-top: 75px;
+  height: 400px;
+  margin-top: 100px;
 }
