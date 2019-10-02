@@ -28,6 +28,9 @@ nav li {
 nav a {
   text-decoration: none;
 }
+/* fine elenchi puntati */
+
+
 
 /*  header  */
 /*  navbar */
@@ -39,4 +42,26 @@ nav a {
 }
 .nav2right {
   width: 20%;
+}
+/* sezione grande */
+h1 {
+  color: white;
+  text-align: left;
+}
+.grande {
+  height: 500px;
+  background: #0049FF;
+}
+.grandeleft {
+  height: 500px;
+  padding: 10%;
+}
+.grandeleft p {
+  color: white;
+  text-align: left;
+}
+.granderight {
+  background: white;
+  height: 350px;
+  margin-top: 75px;
 }
