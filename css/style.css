@@ -6,5 +6,37 @@
   box-sizing: border-box;
 }
 
+/* font */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+[class*="col-"] {
+  height: 50px; /* DEBUG:  */
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* elenchi puntati:  */
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding: 2%;
+}
+nav a {
+  text-decoration: none;
+}
+
 /*  header  */
 /*  navbar */
+.nav2left {
+  width: 20%;
+}
+.nav2center {
+  width: 60%;
+}
+.nav2right {
+  width: 20%;
+}
