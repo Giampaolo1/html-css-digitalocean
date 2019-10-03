@@ -12,22 +12,24 @@ body {
 }
 
 [class*="col-"] {
-  height: 50px; /* DEBUG:  */
+  height: auto;
   border: 1px solid black;
   text-align: center;
 }
 
-.container-fluid {
-  border: 1px solid yellow; /* DEBUG:  */
+ .container-fluid, .container {
+  border: 1px solid yellow;
 }
 
 /* elenchi puntati:  */
-nav ul {
+ul {
   list-style: none;
+}
+li {
+  padding: 2%;
 }
 nav li {
   display: inline-block;
-  padding: 2%;
 }
 nav a {
   text-decoration: none;
@@ -85,13 +87,17 @@ h1 {
 }
 /* sezione loghi:  */
 
-.loghi {
+.loghiescritte {
   background: lightblue;
-  height: 200px;
+  height: 250px;
 }
 
-.loghi h4 {
+.loghiescritte h4 {
   padding: 2%;
+}
+
+.innovative {
+  height: 70px;
 }
 
 .docker img {
@@ -113,3 +119,5 @@ h1 {
   width: 50%;
   padding-top: 7%;
 }
+/* fine footer */
+/* inizio main */
