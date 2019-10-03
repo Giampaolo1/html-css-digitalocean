@@ -153,3 +153,10 @@ h1 {
   font-size: 25px;
   color: navy;
 }
+/* sezione mappamondo */
+.mappamondo {
+  background-image: url(../img/mappamondo.svg);
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
