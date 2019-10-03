@@ -17,6 +17,10 @@ body {
   text-align: center;
 }
 
+h2, h3, h4 {
+color: navy;
+}
+
  .container-fluid, .container {
   border: 1px solid yellow;
 }
@@ -121,6 +125,31 @@ h1 {
 }
 /* fine footer */
 /* inizio main */
+/* sez kubernetes */
 .Kubernetes {
   text-align: left;
+}
+/* sez designed:  */
+.designed {
+  background: #F3F5F9;
+  padding-bottom: 3%;
+}
+.sample img {
+  width: 70%;
+  margin-top: 4%;
+}
+.lorem {
+  margin-top: 2%;
+}
+/* sez built */
+.built {
+  padding-top: 4%;
+}
+.loghetti {
+  text-align: left;
+  margin: 3% 0;
+}
+  .scudo {
+  font-size: 25px;
+  color: navy;
 }
