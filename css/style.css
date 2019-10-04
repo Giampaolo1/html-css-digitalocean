@@ -232,3 +232,24 @@ td b {
 #right {
   text-align: right;
 }
+/* sez designed */
+.designed h2 {
+  color: navy;
+}
+/* sez getstarted */
+.getstarted {
+  background-image: url(../img/sfondo.jpg);
+  height: 200px;
+  padding-top: 20px;
+}
+.bottone {
+  margin: 1%;
+  background: white;
+  color: blue;
+  font-weight: bold;
+  font-size: 16px;
+}
+.getstarted h3 {
+  font-weight: bold;
+  color: white;
+}
