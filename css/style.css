@@ -17,8 +17,13 @@ body {
   text-align: center;
 }
 
-h2, h3, h4 {
+h2, h3, {
 color: navy;
+}
+
+h4 {
+  color: grey;
+  padding: 1%;
 }
 
  .container-fluid, .container {
@@ -38,9 +43,16 @@ nav li {
 nav a {
   text-decoration: none;
 }
+
+  /* nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+} */
+
 /* fine elenchi puntati */
-
-
 
 /*  header  */
 /*  navbar */
@@ -66,22 +78,28 @@ nav a {
   padding: 8px;
 }
 /* sezione grande */
-h1 {
-  color: white;
-  text-align: left;
-}
 .grande {
+  margin-top: 120px;
   height: 600px;
   background-image: url(../img/sfondo.jpg);
 }
+
+h1 {
+  color: white;
+  text-align: left;
+  font-size: 60px;
+}
+
+.grandeleft h3 {
+  color: lightgrey;
+  text-align: left;
+}
+
 .grandeleft {
   height: 600px;
   padding: 10%;
 }
-.grandeleft p {
-  color: white;
-  text-align: left;
-}
+
 .granderight {
   background: white;
   height: 500px;
@@ -89,10 +107,15 @@ h1 {
   margin-top: 50px;
   margin-left: 100px;
 }
+.bottoni {
+  background: #F3F5F9;
+  width: 40%;
+  text-align: left;
+}
 /* sezione loghi:  */
 
 .loghiescritte {
-  background: lightblue;
+  background: #F3F5F9;
   height: 250px;
 }
 
@@ -125,21 +148,39 @@ h1 {
 }
 /* fine footer */
 /* inizio main */
+
 /* sez kubernetes */
+.kubernetesandmore h4 {
+  color: navy;
+}
+.kubernetesandmore h3 {
+  color: blue;
+}
 .Kubernetes {
   text-align: left;
 }
 /* sez designed:  */
 .designed {
   background: #F3F5F9;
-  padding-bottom: 3%;
+  padding: 3% 0;
+}
+
+.freccia {
+  font-size: 25px;
+  color: navy;
 }
 .sample img {
   width: 70%;
-  margin-top: 4%;
+  margin: 3%;
 }
-.lorem {
+.usekubernetes {
   margin-top: 2%;
+  color: navy;
+}
+.pallina {
+  color: blue;
+  padding: 3px;
+  font-size: 10px;
 }
 /* sez built */
 .built {
@@ -149,9 +190,18 @@ h1 {
   text-align: left;
   margin: 3% 0;
 }
-  .scudo {
-  font-size: 25px;
+.scudo {
+font-size: 25px;
+color: blue;
+}
+.loghetti h4 {
   color: navy;
+}
+.loghetti h3 {
+  color: blue;
+}
+.loghetti a {
+  color: blue;
 }
 /* sezione mappamondo */
 .mappamondo {
