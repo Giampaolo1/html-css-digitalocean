@@ -204,10 +204,31 @@ h1 {
 /* sezione mappamondo */
 .mappamondo {
   background-image: url(../img/mappamondo.svg);
-  background-color: lightblue;
+  background-color: #031B4E;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .mappamondo h2 {
   color: white;
+}
+/* tabella */
+.tabella {
+  margin: 5%;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 1%;
+  border-bottom: solid 0.1px;
+  color: grey;
+}
+
+td b {
+  color: white;
+}
+#right {
+  text-align: right;
 }
