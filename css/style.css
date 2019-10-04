@@ -186,21 +186,19 @@ h1 {
 .built {
   padding-top: 4%;
 }
-.loghetti {
+.logoalign {
   text-align: left;
   margin: 3% 0;
 }
 .scudo {
-font-size: 25px;
-color: blue;
+  font-size: 25px;
+  color: blue;
 }
 .loghetti h4 {
   color: navy;
+  font-weight: bold;
 }
-.loghetti h3 {
-  color: blue;
-}
-.loghetti a {
+.loghetti h3, .loghetti a {
   color: blue;
 }
 /* sezione mappamondo */
@@ -209,4 +207,7 @@ color: blue;
   background-color: lightblue;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+.mappamondo h2 {
+  color: white;
 }
