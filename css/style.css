@@ -21,6 +21,10 @@ h2, h3, {
 color: navy;
 }
 
+h5 {
+  color: white;
+}
+
 h4 {
   color: grey;
   padding: 1%;
@@ -177,6 +181,9 @@ h1 {
   margin-top: 2%;
   color: navy;
 }
+.usekubernetes h4 {
+  color: blue;
+}
 .pallina {
   color: blue;
   padding: 3px;
@@ -252,4 +259,25 @@ td b {
 .getstarted h3 {
   font-weight: bold;
   color: white;
+}
+/* footer */
+.footer {
+  background: #031B4E;
+  padding: 2% 10%;
+}
+
+/* footer2 */
+.copyright {
+  color: grey;
+  text-align: left;
+}
+
+.socials {
+  text-align: right;
+  color: lightgrey;
+}
+.socials li {
+  display: inline-block;
+  color: grey;
+  font-size: 20px;
 }
