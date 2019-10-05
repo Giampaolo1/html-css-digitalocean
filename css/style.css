@@ -169,9 +169,9 @@ h1 {
 .granderight {
   background: white;
   height: 500px;
-  width: 400px;
+  width: 40%; /* DEBUG: ? */
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: auto;
 }
 .bottoni {
   background: #F3F5F9;
