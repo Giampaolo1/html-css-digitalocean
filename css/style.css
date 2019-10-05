@@ -82,9 +82,41 @@ nav a {
   width: 20%;
   padding: 8px;
 }
+/* nav nascosta */
+@media screen and (max-width: 1050px){
+.nav {
+  display: none;
+}
+}
+@media screen and (min-width: 1050px){
+.navnascosta {
+  display: none;
+}
+}
+
+.navnascosta {
+  background: blue
+}
+
+.navnascleft {
+  text-align: left;
+}
+.navnascleft img {
+  width: 40%;
+}
+
+.navnascright {
+  text-align: right;
+  color: white;
+}
+.navnascright i {
+  font-size: 30px;
+}
+
+
 /* sezione grande */
 .grande {
-  margin-top: 120px;
+  /* margin-top: 120px; */
   height: 600px;
   background-image: url(../img/sfondo.jpg);
 }
@@ -269,8 +301,15 @@ td b {
 
 /* footer2 */
 .copyright {
+ text-align: left;
+}
+
+.copyright span {
   color: grey;
-  text-align: left;
+}
+.copyright i {
+  font-size: 40px;
+  color: blue;
 }
 
 .socials {
